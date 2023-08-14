@@ -1,6 +1,6 @@
 let targetCount = 0;
-let gameDuration = 0;
-let gameSummaryScreenDuration = 0;
+let gameDuration = 5;
+let gameSummaryScreenDuration = 5;
 
 /**
  * Remove all children for the given HTML element from the DOM.
