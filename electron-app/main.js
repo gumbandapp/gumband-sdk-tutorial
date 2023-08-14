@@ -122,6 +122,7 @@ window.gb.receive("fromGumband", (data) => {
 });
 
 function addStaticCopy() {
+    createDigitalSignagePage();
     const header = document.getElementsByClassName('header')[0];
     const subheader = document.getElementsByClassName('subheader')[0];
     const body = document.getElementsByClassName('body')[0];
@@ -135,5 +136,4 @@ function addStaticCopy() {
     image.appendChild(imageContent);
 }
 
-createDigitalSignagePage();
 addStaticCopy();
